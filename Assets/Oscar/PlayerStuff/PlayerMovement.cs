@@ -60,7 +60,7 @@ public class PlayerMovement : MonoBehaviour
             float smoothedAngle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
             transform.rotation = Quaternion.Euler(0f, smoothedAngle, 0f);
 
-            // Use runSpeed if Shift is held, else use moveSpeed
+       
             float currentSpeed = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift) ? runSpeed : moveSpeed;
             rb.MovePosition(rb.position + moveDirection.normalized * currentSpeed * Time.fixedDeltaTime);
         }
