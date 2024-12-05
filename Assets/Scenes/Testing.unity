@@ -178,7 +178,7 @@ Light:
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
-    m_Resolution: -1
+    m_Resolution: 128
     m_CustomResolution: -1
     m_Strength: 1
     m_Bias: 0.05
@@ -234,7 +234,7 @@ Transform:
   m_GameObject: {fileID: 310935331}
   serializedVersion: 2
   m_LocalRotation: {x: -0.25622383, y: -0.3189163, z: 0.1827417, w: 0.8940064}
-  m_LocalPosition: {x: 2.973, y: 1.204, z: 3.212}
+  m_LocalPosition: {x: 2.792, y: 0.755, z: 3.262}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -609,7 +609,7 @@ Light:
     m_Strength: 1
     m_Bias: 4.8
     m_NormalBias: 2.85
-    m_NearPlane: 1.16
+    m_NearPlane: 0.97
     m_CullingMatrixOverride:
       e00: 1
       e01: 0
@@ -679,7 +679,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Version: 3
-  m_UsePipelineSettings: 1
+  m_UsePipelineSettings: 0
   m_AdditionalLightsShadowResolutionTier: 2
   m_LightLayerMask: 1
   m_RenderingLayers: 4294967295
