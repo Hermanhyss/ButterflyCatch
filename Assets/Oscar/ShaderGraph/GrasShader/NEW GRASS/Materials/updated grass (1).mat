@@ -126,7 +126,7 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _HightBlend: 3
+    - _HightBlend: 2.38
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
@@ -142,10 +142,10 @@ Material:
     - _TerrainOffset: 0
     - _TerrainSize: 50
     - _USETERRAINCOLOR: 0
-    - _WindHeight: 0.1
+    - _WindHeight: 0.2
     - _WindIntensity: 0.2
     - _WindNoiseSpeed: 1
-    - _WindSpeed: 0.1
+    - _WindSpeed: 0.01
     - _WorkflowMode: 1
     - _ZWrite: 0
     m_Colors:
@@ -153,12 +153,12 @@ Material:
     - _BottomColor: {r: 0.2605779, g: 0.5188679, b: 0.19335172, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FarColor: {r: 0.31118724, g: 0.5943396, b: 0.4305888, a: 0}
-    - _NearColor: {r: 0.54901963, g: 0.8745098, b: 0.570413, a: 0}
+    - _FarColor: {r: 0.34117648, g: 0.7607844, b: 0.5137255, a: 0}
+    - _NearColor: {r: 0.34117648, g: 0.7568628, b: 0.50980395, a: 0}
     - _NearFarRange: {r: 3, g: 18, b: 0, a: 0}
     - _ShadowColor: {r: 0.09878958, g: 0.17697257, b: 0.5660378, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _WindNoiseContrast: {r: 0, g: 1, b: 0, a: 0}
-    - _WindNoiseScale: {r: 40, g: 100, b: 0, a: 0}
+    - _WindNoiseContrast: {r: 0.1, g: 0.5, b: 0, a: 0}
+    - _WindNoiseScale: {r: 100, g: 150, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
