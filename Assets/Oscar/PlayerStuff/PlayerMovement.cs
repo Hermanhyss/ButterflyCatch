@@ -23,8 +23,9 @@ public class PlayerMovement : MonoBehaviour
         rb.freezeRotation = true;
     }
 
-    private void Update()
+     void Update()
     {
+        Shader.SetGlobalVector("_Player", transform.position);
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
         movementInput = new Vector3(horizontal, 0f, vertical).normalized;
